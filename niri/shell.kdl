@@ -1,0 +1,7 @@
+spawn-at-startup "noctalia"
+binds {
+    Mod+D { spawn-sh "noctalia msg panel-toggle launcher"; }
+}
+debug {
+    honor-xdg-activation-with-invalid-serial
+}

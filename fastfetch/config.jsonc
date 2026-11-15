@@ -1,0 +1,49 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "kitty",
+    "source": "/home/lewis/.config/fastfetch/pika.png",
+    "width": 30,
+    "height": 15,
+    "padding": {
+      "top": 1,
+      "left": 1,
+      "right": 2
+    }
+  },
+  "display": {
+    "separator": "",
+    "key": {
+      "width": 13
+    },
+    "color": {
+      "keys": "magenta",
+      "title": "cyan"
+    }
+  },
+  "modules": [
+    "title",
+    "separator",
+
+    // Software & Wayland Desktop
+    { "type": "os", "key": "󰣚 OS" },
+    { "type": "kernel", "key": " Kernel" },
+    { "type": "packages", "key": "󰏖 Packages" },
+    { "type": "shell", "key": " Shell" },
+    { "type": "wm", "key": " WM" },
+    { "type": "terminal", "key": " Terminal" },
+    { "type": "display", "key": "󰍹 Display", "format": "{1}x{2} @ {3}Hz" },
+    { "type": "uptime", "key": "󰅐 Uptime" },
+
+    "break",
+
+    // Hardware
+    { "type": "cpu", "key": " CPU", "format": "{1} ({3}c)" },
+    { "type": "gpu", "key": "󰢮 GPU", "format": "{2}" },
+    { "type": "memory", "key": " Memory" },
+    { "type": "disk", "key": "󰋊 Disk (/)", "folders": "/" },
+
+    "break",
+    "colors"
+  ]
+}

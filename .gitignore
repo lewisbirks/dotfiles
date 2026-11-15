@@ -1,0 +1,31 @@
+# Ignore everything by default
+*
+
+# Track .gitignore itself
+!.gitignore
+
+# Window Manager, Shell & Theme Engine
+!niri/
+!niri/**
+niri/noctalia.kdl
+!noctalia/
+!noctalia/**
+
+# Terminals & CLI Tools
+!fastfetch/
+!fastfetch/**
+!ghostty/
+!ghostty/config.ghostty
+!mise/
+!mise/**
+!superfile/
+!superfile/config.toml
+!superfile/hotkeys.toml
+
+# GUI App Configs & Theming
+!gram/
+!gram/settings.jsonc
+
+# GitHub CLI (only config.yml, NEVER hosts.yml which has auth tokens)
+!gh/
+!gh/config.yml
