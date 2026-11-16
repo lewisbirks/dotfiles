@@ -17,8 +17,6 @@ niri/noctalia.kdl
 # Terminals & CLI Tools
 !fastfetch/
 !fastfetch/**
-!ghostty/
-!ghostty/config.ghostty
 !mise/
 !mise/**
 !superfile/
