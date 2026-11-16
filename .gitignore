@@ -28,10 +28,6 @@ niri/noctalia.kdl
 !zsh/fzf.zsh
 !zsh/aliases.zsh
 
-# GUI App Configs & Theming
-!gram/
-!gram/settings.jsonc
-
 # GitHub CLI (only config.yml, NEVER hosts.yml which has auth tokens)
 !gh/
 !gh/config.yml
