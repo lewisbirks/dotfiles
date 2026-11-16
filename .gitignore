@@ -1,8 +1,11 @@
 # Ignore everything by default
 *
 
-# Track .gitignore itself
+# Track .gitignore and bootstrap files
 !.gitignore
+!_bootstrap.sh
+!_bootstrap/
+!_bootstrap/**
 
 # Window Manager, Shell & Theme Engine
 !niri/
@@ -21,6 +24,9 @@ niri/noctalia.kdl
 !superfile/
 !superfile/config.toml
 !superfile/hotkeys.toml
+!zsh/
+!zsh/.zshrc
+!zsh/.p10k.zsh
 
 # GUI App Configs & Theming
 !gram/
