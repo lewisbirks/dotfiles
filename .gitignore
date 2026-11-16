@@ -27,6 +27,8 @@ niri/noctalia.kdl
 !zsh/
 !zsh/.zshrc
 !zsh/.p10k.zsh
+!zsh/fzf.zsh
+!zsh/aliases.zsh
 
 # GUI App Configs & Theming
 !gram/
