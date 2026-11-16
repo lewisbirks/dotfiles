@@ -1,8 +1,9 @@
 # Ignore everything by default
 *
 
-# Track .gitignore and bootstrap files
+# Track .gitignore, README, and bootstrap files
 !.gitignore
+!README.md
 !_bootstrap.sh
 !_bootstrap/
 !_bootstrap/**
