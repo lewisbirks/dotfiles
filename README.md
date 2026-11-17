@@ -1,16 +1,16 @@
-# .config
+# .config (Shared Base)
 
-Personal configuration files for PikaOS and macOS.
+Shared base configuration files for Zsh, `mise`, `superfile`, and `gh`.
 
-## Setup
+## Branches
 
-Clone this repository into `~/.config` and run the bootstrap script:
+- `main` — Shared base configurations (`zsh/`, `mise/`, `superfile/`, `gh/`).
+- `pikaos` — PikaOS desktop and CLI configurations.
+- `macos` — macOS CLI configurations.
 
-```bash
-~/.config/_bootstrap.sh
-```
+Make shared changes on `main` and merge or rebase them into `pikaos` and `macos`.
 
-`_bootstrap.sh` detects the current OS and delegates to the matching script in `_bootstrap/` (`pikaos.sh` or `macos.sh`) to install required CLI packages, configure `~/.zshenv` with `ZDOTDIR="$HOME/.config/zsh"`, and install `mise` runtimes.
+## Zsh
 
 Zsh configuration lives in `zsh/` and is split into `.zshrc`, `fzf.zsh`, and `aliases.zsh`. Machine-specific overrides can be placed in `zsh/local.zsh`, which is sourced automatically if present.
 

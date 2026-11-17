@@ -1,23 +1,11 @@
 # Ignore everything by default
 *
 
-# Track .gitignore, README, and bootstrap files
+# Track .gitignore and README
 !.gitignore
 !README.md
-!_bootstrap.sh
-!_bootstrap/
-!_bootstrap/**
-
-# Window Manager, Shell & Theme Engine
-!niri/
-!niri/**
-niri/noctalia.kdl
-!noctalia/
-!noctalia/**
 
 # Terminals & CLI Tools
-!fastfetch/
-!fastfetch/**
 !mise/
 !mise/**
 !superfile/
