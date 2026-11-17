@@ -10,6 +10,10 @@ Shared base configuration files for Zsh, `mise`, `superfile`, and `gh`.
 
 Make shared changes on `main` and merge or rebase them into `pikaos` and `macos`.
 
+## Package Management
+
+OS-specific branches (`pikaos` and `macos`) handle system package installation via their native package managers (`pikman` on PikaOS, Homebrew on macOS), while language runtimes and SDKs are managed across both systems with `mise` (`mise/config.toml`).
+
 ## Zsh
 
 Zsh configuration lives in `zsh/` and is split into `.zshrc`, `fzf.zsh`, and `aliases.zsh`. Machine-specific overrides can be placed in `zsh/local.zsh`, which is sourced automatically if present.
