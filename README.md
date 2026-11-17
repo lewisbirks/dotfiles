@@ -1,14 +1,16 @@
-# .config (Shared Base)
+# .config (macOS)
 
-Shared base configuration files for Zsh, `mise`, `superfile`, and `gh`.
+macOS configuration files, branched from `main`.
 
-## Branches
+## Setup
 
-- `main` — Shared base configurations (`zsh/`, `mise/`, `superfile/`, `gh/`).
-- `pikaos` — PikaOS desktop and CLI configurations.
-- `macos` — macOS CLI configurations.
+Clone the `macos` branch into `~/.config` and run the bootstrap script:
 
-Make shared changes on `main` and merge or rebase them into `pikaos` and `macos`.
+```bash
+~/.config/_bootstrap.sh
+```
+
+`_bootstrap.sh` installs Homebrew (if missing), installs packages from `Brewfile`, configures `~/.zshenv` with `ZDOTDIR="$HOME/.config/zsh"`, and installs `mise` and its configured runtimes.
 
 ## Zsh
 

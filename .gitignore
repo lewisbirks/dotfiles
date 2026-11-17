@@ -1,9 +1,11 @@
 # Ignore everything by default
 *
 
-# Track .gitignore and README
+# Track .gitignore, README, and bootstrap files
 !.gitignore
 !README.md
+!_bootstrap.sh
+!Brewfile
 
 # Terminals & CLI Tools
 !mise/
