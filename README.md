@@ -12,6 +12,10 @@ Clone the `macos` branch into `~/.config` and run the bootstrap script:
 
 `_bootstrap.sh` installs Homebrew (if missing), installs packages from `Brewfile`, configures `~/.zshenv` with `ZDOTDIR="$HOME/.config/zsh"`, and installs `mise` and its configured runtimes.
 
+## Package Management
+
+CLI tools (`bat`, `eza`, `fzf`, `gh`, `git`, `superfile`) are managed via Homebrew in `Brewfile`. Language runtimes are managed via `mise` in `mise/config.toml`.
+
 ## Zsh
 
 Zsh configuration lives in `zsh/` and is split into `.zshrc`, `fzf.zsh`, and `aliases.zsh`. Machine-specific overrides can be placed in `zsh/local.zsh`, which is sourced automatically if present.
