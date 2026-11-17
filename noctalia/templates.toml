@@ -1,0 +1,7 @@
+[theme.templates.user.gram]
+input_path = "templates/gram.json"
+output_path = "~/.config/gram/themes/noctalia.json"
+
+[theme.templates.user.superfile]
+input_path = "~/.config/noctalia/templates/superfile.toml"
+output_path = "~/.config/superfile/theme/noctalia.toml"

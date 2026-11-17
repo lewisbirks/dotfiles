@@ -1,1 +1,4 @@
 [tools]
+java = "temurin-25.0.5+8.0.LTS"
+maven = "latest"
+node = "26.13.1"
